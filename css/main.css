@@ -6,28 +6,37 @@ body {
 	font-size: 16px;
 }
 
-h1, h2, h3, h4, h5, h6 {
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
 	padding: 0;
 	margin: 0;
 	text-transform: uppercase;
 }
+
 h2 {
 	font-size: 50px;
 	margin-bottom: 58px;
 }
+
 h3 {
 	font-size: 25px;
 	margin-bottom: 28px;
 }
+
 section {
-	padding-top: 113px	
+	padding-top: 113px
 }
 
 p {
 	margin: 0;
 }
 
-ul, li {
+ul,
+li {
 	display: block;
 	padding: 0;
 	margin: 0;
@@ -36,7 +45,7 @@ ul, li {
 .container {
 	width: 1170px;
 	/*позиционирование по цеynge*/
-	margin: 0 auto; 
+	margin: 0 auto;
 }
 
 .header {
@@ -49,14 +58,16 @@ ul, li {
 header a {
 	color: #fff
 }
+
 .logo {
 	margin-right: 69px;
 }
 
 .menu {
 	/*В одну строку*/
-	display: flex; 
+	display: flex;
 }
+
 .menu li a {
 	/*Все капсом*/
 	text-transform: uppercase;
@@ -65,6 +76,7 @@ header a {
 	font-size: 14px;
 	letter-spacing: 0.1em;
 }
+
 .menu li {
 	margin-right: 40px;
 }
@@ -75,25 +87,28 @@ header a {
 	margin-left: auto;
 	letter-spacing: 0.1em;
 }
+
 .nav {
 	display: flex;
 	/*выровнить в 1 ряд то что в строке*/
 	align-items: center;
 }
+
 .offer {
 	text-transform: uppercase;
 	margin-top: 216px;
 }
+
 .offer p {
 	font-size: 30px;
 	letter-spacing: 0.1em;
 }
+
 .offer h1 {
 	font-size: 100px;
 	margin-top: -10px;
 	margin-bottom: 19px;
 	letter-spacing: 0.02em
-
 }
 
 .btn {
@@ -106,10 +121,11 @@ header a {
 	width: 238px;
 	transition: all 0.5s ease;
 }
- /*при наведении*/
-	.btn:hover {
+
+/*при наведении*/
+.btn:hover {
 	background: #fff;
-    color: #000;
+	color: #000;
 }
 
 .description {
@@ -124,7 +140,9 @@ header a {
 	text-align: justify;
 	line-height: 1.62em;
 }
-.desc-left, .desc-right {
+
+.desc-left,
+.desc-right {
 	width: 567px;
 }
 
@@ -139,18 +157,17 @@ header a {
 }
 
 .image img:hover {
-	box-shadow: 0 20px 40px rgba(0,0,0,0.3);
+	box-shadow: 0 20px 40px rgba(0, 0, 0, 0.3);
 	transform: scale(1.1);
 }
+
 .footer-text {
 	font-size: 15px;
 	font-family: 'Open sans', sans-serif;
 	display: flex;
 	padding: 114px 0
-
 }
+
 .footer-text p {
 	margin-right: 67px;
 }
-
-
